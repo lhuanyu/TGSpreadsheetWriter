@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Tom Grill. All rights reserved.
 //
 /*
- Copyright (c) 2012 Thomas Grill
+ Copyright (c) 2012-2016 Thomas Grill
  
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  
@@ -18,17 +18,17 @@
 
 @interface TGSpreadsheetWriter : NSObject
 
-@property (retain) NSMutableArray * data;
-@property (retain) NSMutableArray * sharedStrings;
-@property (retain) NSString * tmpDir;
+@property (strong) NSMutableArray *data;
+@property (strong) NSMutableArray *sharedStrings;
+@property (strong) NSString *tmpDir;
 
-+ (NSMutableArray*) ReadWorksheetXML2004: (NSURL*)inputFile;
-+ (void) WriteWorksheetXML2004: (NSURL*) outputFile withData:(NSArray*) data;
++ (NSMutableArray *)readWorksheetXML2004:(NSURL*)inputFile;
++ (void)writeWorksheetXML2004:(NSURL*) outputFile withData:(NSArray*)data;
 
-+ (NSMutableArray*) ReadWorkbook: (NSURL*)inputFile;
-+ (void) WriteWorkbook: (NSURL*) outputFile withData: (NSArray*) data hasTitleRow:(Boolean) hasTitleRow;
++ (NSMutableArray *)readWorkbook:(NSURL*)inputFile;
++ (void)writeWorkbook:(NSURL *)outputFile withData:(NSArray *) data hasTitleRow:(BOOL)hasTitleRow;
 
-+ (NSMutableArray*) ReadODS: (NSURL*) inputFile;
-+ (void) WriteODS: (NSURL*) outputFile withData: (NSArray*) data hasTitleRow:(Boolean) hasTitleRow;
++ (NSMutableArray *)readODS:(NSURL*)inputFile;
++ (void)WriteODS:(NSURL *)outputFile withData:(NSArray *)data hasTitleRow:(BOOL)hasTitleRow;
 
 @end

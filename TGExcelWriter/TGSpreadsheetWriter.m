@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Tom Grill. All rights reserved.
 //
 /*
- Copyright (c) 2012 Thomas Grill
+ Copyright (c) 2012-2016 Thomas Grill
  
  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
  
@@ -89,7 +89,7 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
  FileEnding: xml
  
  */
-+ (NSArray*) ReadWorksheetXML2004: (NSURL *) input {
++ (NSArray*) readWorksheetXML2004: (NSURL *) input {
     
     NSError * err=NULL;
     NSMutableArray * data = [NSMutableArray new];
@@ -118,7 +118,7 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
     return data;
 }
 
-+ (void) WriteWorksheetXML2004: (NSURL*) outputFile withData: (NSArray*) data {
++ (void) writeWorksheetXML2004: (NSURL*) outputFile withData: (NSArray*) data {
     
     int cols = (int)[[data objectAtIndex:0] count];
     int rows = (int)[data count];
@@ -189,7 +189,7 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
  FileEnding: xslx
  */
 
-+ (NSArray*) ReadWorkbook: (NSURL *) inputFile {
++ (NSArray*) readWorkbook: (NSURL *) inputFile {
     
     if (!spreadsheet) spreadsheet = [TGSpreadsheetWriter new];
     
@@ -272,9 +272,9 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
     
 }
 
-+ (void) WriteWorkbook: (NSURL*) outputFile
++ (void) writeWorkbook: (NSURL*) outputFile
               withData: (NSMutableArray*) data
-           hasTitleRow:(Boolean) hasTitleRow{
+           hasTitleRow:(BOOL) hasTitleRow{
     
     if (!spreadsheet)spreadsheet = [TGSpreadsheetWriter new];
     
@@ -550,7 +550,7 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
  FileEnding: ods
  */
 
-+ (NSArray*) ReadODS: (NSURL *) inputFile {
++ (NSArray*) readODS: (NSURL *) inputFile {
     
     NSError * err=NULL;
     NSMutableArray * data = [NSMutableArray new];
@@ -601,7 +601,7 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
 
 + (void) WriteODS: (NSURL*) outputFile
          withData: (NSMutableArray*) data
-      hasTitleRow:(Boolean) hasTitleRow{
+      hasTitleRow:(BOOL) hasTitleRow{
     
     NSFileManager * fm = [NSFileManager defaultManager];
     

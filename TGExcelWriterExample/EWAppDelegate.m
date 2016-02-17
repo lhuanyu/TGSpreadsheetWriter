@@ -67,15 +67,15 @@ Copyright (c) 2012 Thomas Grill
     if ([panel runModal] == NSOKButton) {
         if ([[panel.URL pathExtension] isEqualToString:@"xlsx"]){
             
-            content = [TGSpreadsheetWriter ReadWorkbook:panel.URL];
+            content = [TGSpreadsheetWriter readWorkbook:panel.URL];
             
         } else if ([[panel.URL pathExtension] isEqualToString:@"xml"]){
             
-            content = [TGSpreadsheetWriter ReadWorksheetXML2004:panel.URL];
+            content = [TGSpreadsheetWriter readWorksheetXML2004:panel.URL];
             
         } else {
             
-            content = [TGSpreadsheetWriter ReadODS:panel.URL ];
+            content = [TGSpreadsheetWriter readODS:panel.URL ];
         }
         
         [tableView reloadData];
@@ -91,12 +91,12 @@ Copyright (c) 2012 Thomas Grill
         
         if ([[panel.URL pathExtension] isEqualToString:@"xlsx"]){
             
-            [TGSpreadsheetWriter WriteWorkbook:panel.URL
+            [TGSpreadsheetWriter writeWorkbook:panel.URL
                                     withData:content
                                  hasTitleRow:[self hasTitleRow]];
         } else if ([[panel.URL pathExtension] isEqualToString:@"xml"]){
             
-            [TGSpreadsheetWriter WriteWorksheetXML2004:panel.URL
+            [TGSpreadsheetWriter writeWorksheetXML2004:panel.URL
                                     withData:content];
             
         } else {
