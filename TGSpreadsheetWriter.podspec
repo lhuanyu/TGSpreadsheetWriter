@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name     = 'TGSpreadsheetWriter'
-  s.version  = '1.0'
+  s.version  = '1.0.1'
   s.license  =  { :type => 'MIT', :file => 'LICENSE' }
   s.summary  = 'This project provides some classes that allow to read/write spreadsheet files (Excel, OpenOffice) on OS X.'
   s.homepage = 'https://github.com/TimOliver/TGSpreadsheetWriter'
