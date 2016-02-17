@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22BC81B41C74CC4100B55166 /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC81B31C74CC4100B55166 /* EWAppDelegate.m */; };
+		22BC81B81C74CC5E00B55166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC81B51C74CC5E00B55166 /* main.m */; };
+		22BC81BE1C74CC9200B55166 /* TGSpreadsheetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC81BC1C74CC9200B55166 /* TGSpreadsheetWriter.m */; };
+		22BC81BF1C74CC9200B55166 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC81BD1C74CC9200B55166 /* ZipArchive.framework */; };
+		22BC81C41C74CD8C00B55166 /* spreadsheet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C01C74CD8C00B55166 /* spreadsheet.icns */; };
+		22BC81C51C74CD8C00B55166 /* spreadsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C11C74CD8C00B55166 /* spreadsheet.png */; };
+		22BC81C61C74CD8C00B55166 /* Template.ods in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C21C74CD8C00B55166 /* Template.ods */; };
+		22BC81C71C74CD8C00B55166 /* Template.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C31C74CD8C00B55166 /* Template.xlsx */; };
+		22BC81CA1C74CDA200B55166 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C81C74CDA200B55166 /* MainMenu.xib */; };
+		22BC81CD1C74CDBE00B55166 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81CB1C74CDBE00B55166 /* Credits.rtf */; };
+		22BC81CE1C74CF5E00B55166 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC81BD1C74CC9200B55166 /* ZipArchive.framework */; };
+		22BC81CF1C74CF5E00B55166 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC81BD1C74CC9200B55166 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E2CED41F161430ED00E593F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CED41E161430ED00E593F7 /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		22BC81D01C74CF5E00B55166 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22BC81CF1C74CF5E00B55166 /* ZipArchive.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		22BC81B21C74CC4100B55166 /* EWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EWAppDelegate.h; path = TGExcelWriterExample/EWAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		22BC81B31C74CC4100B55166 /* EWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EWAppDelegate.m; path = TGExcelWriterExample/EWAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		22BC81B51C74CC5E00B55166 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TGExcelWriterExample/main.m; sourceTree = SOURCE_ROOT; };
+		22BC81B61C74CC5E00B55166 /* SpreadsheetWriterExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SpreadsheetWriterExample-Info.plist"; path = "TGExcelWriterExample/SpreadsheetWriterExample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		22BC81B71C74CC5E00B55166 /* SpreadsheetWriterExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetWriterExample-Prefix.pch"; path = "TGExcelWriterExample/SpreadsheetWriterExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		22BC81BB1C74CC9200B55166 /* TGSpreadsheetWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSpreadsheetWriter.h; sourceTree = "<group>"; };
+		22BC81BC1C74CC9200B55166 /* TGSpreadsheetWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSpreadsheetWriter.m; sourceTree = "<group>"; };
+		22BC81BD1C74CC9200B55166 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = TGExcelWriter/ZipArchive.framework; sourceTree = "<group>"; };
+		22BC81C01C74CD8C00B55166 /* spreadsheet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = spreadsheet.icns; path = TGExcelWriterExample/spreadsheet.icns; sourceTree = SOURCE_ROOT; };
+		22BC81C11C74CD8C00B55166 /* spreadsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spreadsheet.png; path = TGExcelWriterExample/spreadsheet.png; sourceTree = SOURCE_ROOT; };
+		22BC81C21C74CD8C00B55166 /* Template.ods */ = {isa = PBXFileReference; lastKnownFileType = file; name = Template.ods; path = TGExcelWriterExample/Template.ods; sourceTree = SOURCE_ROOT; };
+		22BC81C31C74CD8C00B55166 /* Template.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Template.xlsx; path = TGExcelWriterExample/Template.xlsx; sourceTree = SOURCE_ROOT; };
+		22BC81C91C74CDA200B55166 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TGExcelWriterExample/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		22BC81CC1C74CDBE00B55166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = TGExcelWriterExample/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		E2CED41A161430ED00E593F7 /* SpreadsheetWriterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreadsheetWriterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2CED41E161430ED00E593F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E2CED421161430ED00E593F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		E2CED422161430ED00E593F7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E2CED423161430ED00E593F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2CED417161430ED00E593F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BC81CE1C74CF5E00B55166 /* ZipArchive.framework in Frameworks */,
+				22BC81BF1C74CC9200B55166 /* ZipArchive.framework in Frameworks */,
+				E2CED41F161430ED00E593F7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22BC81BA1C74CC9200B55166 /* TGExcelWriter */ = {
+			isa = PBXGroup;
+			children = (
+				22BC81BB1C74CC9200B55166 /* TGSpreadsheetWriter.h */,
+				22BC81BC1C74CC9200B55166 /* TGSpreadsheetWriter.m */,
+			);
+			path = TGExcelWriter;
+			sourceTree = "<group>";
+		};
+		E2A7F27C161527A0006D8A4A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22BC81C01C74CD8C00B55166 /* spreadsheet.icns */,
+				22BC81C11C74CD8C00B55166 /* spreadsheet.png */,
+				22BC81C21C74CD8C00B55166 /* Template.ods */,
+				22BC81C31C74CD8C00B55166 /* Template.xlsx */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E2CED40F161430ED00E593F7 = {
+			isa = PBXGroup;
+			children = (
+				E2CED424161430ED00E593F7 /* TGExcelWriterExample */,
+				22BC81BA1C74CC9200B55166 /* TGExcelWriter */,
+				E2CED41D161430ED00E593F7 /* Frameworks */,
+				E2CED41B161430ED00E593F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CED41B161430ED00E593F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2CED41A161430ED00E593F7 /* SpreadsheetWriterExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2CED41D161430ED00E593F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22BC81BD1C74CC9200B55166 /* ZipArchive.framework */,
+				E2CED41E161430ED00E593F7 /* Cocoa.framework */,
+				E2CED420161430ED00E593F7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2CED420161430ED00E593F7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2CED421161430ED00E593F7 /* AppKit.framework */,
+				E2CED422161430ED00E593F7 /* CoreData.framework */,
+				E2CED423161430ED00E593F7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		E2CED424161430ED00E593F7 /* TGExcelWriterExample */ = {
+			isa = PBXGroup;
+			children = (
+				22BC81B21C74CC4100B55166 /* EWAppDelegate.h */,
+				22BC81B31C74CC4100B55166 /* EWAppDelegate.m */,
+				E2A7F27C161527A0006D8A4A /* Resources */,
+				E2CED425161430ED00E593F7 /* Supporting Files */,
+			);
+			name = TGExcelWriterExample;
+			path = ExcelWriter;
+			sourceTree = "<group>";
+		};
+		E2CED425161430ED00E593F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				22BC81C81C74CDA200B55166 /* MainMenu.xib */,
+				22BC81B51C74CC5E00B55166 /* main.m */,
+				22BC81B61C74CC5E00B55166 /* SpreadsheetWriterExample-Info.plist */,
+				22BC81B71C74CC5E00B55166 /* SpreadsheetWriterExample-Prefix.pch */,
+				22BC81CB1C74CDBE00B55166 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2CED419161430ED00E593F7 /* TGSpreadsheetWriterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2CED438161430ED00E593F7 /* Build configuration list for PBXNativeTarget "TGSpreadsheetWriterExample" */;
+			buildPhases = (
+				E2CED416161430ED00E593F7 /* Sources */,
+				E2CED417161430ED00E593F7 /* Frameworks */,
+				E2CED418161430ED00E593F7 /* Resources */,
+				22BC81D01C74CF5E00B55166 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TGSpreadsheetWriterExample;
+			productName = ExcelWriter;
+			productReference = E2CED41A161430ED00E593F7 /* SpreadsheetWriterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2CED411161430ED00E593F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EW;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tom Grill";
+			};
+			buildConfigurationList = E2CED414161430ED00E593F7 /* Build configuration list for PBXProject "SpreadsheetWriterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2CED40F161430ED00E593F7;
+			productRefGroup = E2CED41B161430ED00E593F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2CED419161430ED00E593F7 /* TGSpreadsheetWriterExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2CED418161430ED00E593F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BC81C41C74CD8C00B55166 /* spreadsheet.icns in Resources */,
+				22BC81C71C74CD8C00B55166 /* Template.xlsx in Resources */,
+				22BC81C61C74CD8C00B55166 /* Template.ods in Resources */,
+				22BC81C51C74CD8C00B55166 /* spreadsheet.png in Resources */,
+				22BC81CD1C74CDBE00B55166 /* Credits.rtf in Resources */,
+				22BC81CA1C74CDA200B55166 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2CED416161430ED00E593F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22BC81B41C74CC4100B55166 /* EWAppDelegate.m in Sources */,
+				22BC81BE1C74CC9200B55166 /* TGSpreadsheetWriter.m in Sources */,
+				22BC81B81C74CC5E00B55166 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22BC81C81C74CDA200B55166 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BC81C91C74CDA200B55166 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		22BC81CB1C74CDBE00B55166 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22BC81CC1C74CDBE00B55166 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2CED436161430ED00E593F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2CED437161430ED00E593F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2CED439161430ED00E593F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TGExcelWriter",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGExcelWriterExample/SpreadsheetWriterExample-Prefix.pch";
+				INFOPLIST_FILE = "TGExcelWriterExample/SpreadsheetWriterExample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.tomg.SpreadsheetWriter${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SpreadsheetWriterExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E2CED43A161430ED00E593F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TGExcelWriter",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TGExcelWriterExample/SpreadsheetWriterExample-Prefix.pch";
+				INFOPLIST_FILE = "TGExcelWriterExample/SpreadsheetWriterExample-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "info.tomg.SpreadsheetWriter${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = SpreadsheetWriterExample;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2CED414161430ED00E593F7 /* Build configuration list for PBXProject "SpreadsheetWriterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CED436161430ED00E593F7 /* Debug */,
+				E2CED437161430ED00E593F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2CED438161430ED00E593F7 /* Build configuration list for PBXNativeTarget "TGSpreadsheetWriterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2CED439161430ED00E593F7 /* Debug */,
+				E2CED43A161430ED00E593F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2CED411161430ED00E593F7 /* Project object */;
+}
