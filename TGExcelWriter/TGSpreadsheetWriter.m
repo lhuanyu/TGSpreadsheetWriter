@@ -16,9 +16,11 @@
  */
 #import "TGSpreadsheetWriter.h"
 
-
+// Whether the framework was linked dynamically, or via CocoaPods
 #if __has_include(<ZipArchive/ZipArchive.h>)
 #import <ZipArchive/ZipArchive.h>
+#else
+#import "SSZipArchive.h"
 #endif
 
 @interface TGSpreadsheetWriter()
