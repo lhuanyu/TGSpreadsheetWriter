@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		22BC81B41C74CC4100B55166 /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC81B31C74CC4100B55166 /* EWAppDelegate.m */; };
-		22BC81B81C74CC5E00B55166 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC81B51C74CC5E00B55166 /* main.m */; };
-		22BC81BE1C74CC9200B55166 /* TGSpreadsheetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC81BC1C74CC9200B55166 /* TGSpreadsheetWriter.m */; };
-		22BC81BF1C74CC9200B55166 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC81BD1C74CC9200B55166 /* ZipArchive.framework */; };
-		22BC81C41C74CD8C00B55166 /* spreadsheet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C01C74CD8C00B55166 /* spreadsheet.icns */; };
-		22BC81C51C74CD8C00B55166 /* spreadsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C11C74CD8C00B55166 /* spreadsheet.png */; };
-		22BC81C61C74CD8C00B55166 /* Template.ods in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C21C74CD8C00B55166 /* Template.ods */; };
-		22BC81C71C74CD8C00B55166 /* Template.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C31C74CD8C00B55166 /* Template.xlsx */; };
-		22BC81CA1C74CDA200B55166 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81C81C74CDA200B55166 /* MainMenu.xib */; };
-		22BC81CD1C74CDBE00B55166 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22BC81CB1C74CDBE00B55166 /* Credits.rtf */; };
-		22BC81CE1C74CF5E00B55166 /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC81BD1C74CC9200B55166 /* ZipArchive.framework */; };
-		22BC81CF1C74CF5E00B55166 /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22BC81BD1C74CC9200B55166 /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		22D2B85E1C74E2390059554D /* TGSpreadsheetWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2B85C1C74E2390059554D /* TGSpreadsheetWriter.m */; };
+		22D2B8621C74E2400059554D /* EWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2B8611C74E2400059554D /* EWAppDelegate.m */; };
+		22D2B8671C74E24A0059554D /* spreadsheet.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22D2B8631C74E24A0059554D /* spreadsheet.icns */; };
+		22D2B8681C74E24A0059554D /* spreadsheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D2B8641C74E24A0059554D /* spreadsheet.png */; };
+		22D2B8691C74E24A0059554D /* Template.ods in Resources */ = {isa = PBXBuildFile; fileRef = 22D2B8651C74E24A0059554D /* Template.ods */; };
+		22D2B86A1C74E24A0059554D /* Template.xlsx in Resources */ = {isa = PBXBuildFile; fileRef = 22D2B8661C74E24A0059554D /* Template.xlsx */; };
+		22D2B8711C74E25D0059554D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 22D2B86B1C74E25D0059554D /* Credits.rtf */; };
+		22D2B8731C74E25D0059554D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D2B86F1C74E25D0059554D /* MainMenu.xib */; };
+		22D2B8771C74E26A0059554D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D2B8741C74E26A0059554D /* main.m */; };
+		22D2B8791C74E2BA0059554D /* ZipArchive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22D2B85D1C74E2390059554D /* ZipArchive.framework */; };
+		22D2B87A1C74E2BA0059554D /* ZipArchive.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22D2B85D1C74E2390059554D /* ZipArchive.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E2CED41F161430ED00E593F7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2CED41E161430ED00E593F7 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,7 +28,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				22BC81CF1C74CF5E00B55166 /* ZipArchive.framework in Embed Frameworks */,
+				22D2B87A1C74E2BA0059554D /* ZipArchive.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,20 +36,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		22BC81B21C74CC4100B55166 /* EWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EWAppDelegate.h; path = TGExcelWriterExample/EWAppDelegate.h; sourceTree = SOURCE_ROOT; };
-		22BC81B31C74CC4100B55166 /* EWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EWAppDelegate.m; path = TGExcelWriterExample/EWAppDelegate.m; sourceTree = SOURCE_ROOT; };
-		22BC81B51C74CC5E00B55166 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TGExcelWriterExample/main.m; sourceTree = SOURCE_ROOT; };
-		22BC81B61C74CC5E00B55166 /* SpreadsheetWriterExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SpreadsheetWriterExample-Info.plist"; path = "TGExcelWriterExample/SpreadsheetWriterExample-Info.plist"; sourceTree = SOURCE_ROOT; };
-		22BC81B71C74CC5E00B55166 /* SpreadsheetWriterExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetWriterExample-Prefix.pch"; path = "TGExcelWriterExample/SpreadsheetWriterExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
-		22BC81BB1C74CC9200B55166 /* TGSpreadsheetWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSpreadsheetWriter.h; sourceTree = "<group>"; };
-		22BC81BC1C74CC9200B55166 /* TGSpreadsheetWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSpreadsheetWriter.m; sourceTree = "<group>"; };
-		22BC81BD1C74CC9200B55166 /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZipArchive.framework; path = TGExcelWriter/ZipArchive.framework; sourceTree = "<group>"; };
-		22BC81C01C74CD8C00B55166 /* spreadsheet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = spreadsheet.icns; path = TGExcelWriterExample/spreadsheet.icns; sourceTree = SOURCE_ROOT; };
-		22BC81C11C74CD8C00B55166 /* spreadsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spreadsheet.png; path = TGExcelWriterExample/spreadsheet.png; sourceTree = SOURCE_ROOT; };
-		22BC81C21C74CD8C00B55166 /* Template.ods */ = {isa = PBXFileReference; lastKnownFileType = file; name = Template.ods; path = TGExcelWriterExample/Template.ods; sourceTree = SOURCE_ROOT; };
-		22BC81C31C74CD8C00B55166 /* Template.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Template.xlsx; path = TGExcelWriterExample/Template.xlsx; sourceTree = SOURCE_ROOT; };
-		22BC81C91C74CDA200B55166 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TGExcelWriterExample/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
-		22BC81CC1C74CDBE00B55166 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = TGExcelWriterExample/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		22D2B85B1C74E2390059554D /* TGSpreadsheetWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSpreadsheetWriter.h; sourceTree = "<group>"; };
+		22D2B85C1C74E2390059554D /* TGSpreadsheetWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSpreadsheetWriter.m; sourceTree = "<group>"; };
+		22D2B85D1C74E2390059554D /* ZipArchive.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ZipArchive.framework; sourceTree = "<group>"; };
+		22D2B8601C74E2400059554D /* EWAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EWAppDelegate.h; path = TGSpreadsheetWriterExample/EWAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		22D2B8611C74E2400059554D /* EWAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EWAppDelegate.m; path = TGSpreadsheetWriterExample/EWAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		22D2B8631C74E24A0059554D /* spreadsheet.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = spreadsheet.icns; path = TGSpreadsheetWriterExample/spreadsheet.icns; sourceTree = SOURCE_ROOT; };
+		22D2B8641C74E24A0059554D /* spreadsheet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spreadsheet.png; path = TGSpreadsheetWriterExample/spreadsheet.png; sourceTree = SOURCE_ROOT; };
+		22D2B8651C74E24A0059554D /* Template.ods */ = {isa = PBXFileReference; lastKnownFileType = file; name = Template.ods; path = TGSpreadsheetWriterExample/Template.ods; sourceTree = SOURCE_ROOT; };
+		22D2B8661C74E24A0059554D /* Template.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; name = Template.xlsx; path = TGSpreadsheetWriterExample/Template.xlsx; sourceTree = SOURCE_ROOT; };
+		22D2B86C1C74E25D0059554D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = TGSpreadsheetWriterExample/en.lproj/Credits.rtf; sourceTree = SOURCE_ROOT; };
+		22D2B8701C74E25D0059554D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = TGSpreadsheetWriterExample/en.lproj/MainMenu.xib; sourceTree = SOURCE_ROOT; };
+		22D2B8741C74E26A0059554D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TGSpreadsheetWriterExample/main.m; sourceTree = SOURCE_ROOT; };
+		22D2B8751C74E26A0059554D /* SpreadsheetWriterExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "SpreadsheetWriterExample-Info.plist"; path = "TGSpreadsheetWriterExample/SpreadsheetWriterExample-Info.plist"; sourceTree = SOURCE_ROOT; };
+		22D2B8761C74E26A0059554D /* SpreadsheetWriterExample-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "SpreadsheetWriterExample-Prefix.pch"; path = "TGSpreadsheetWriterExample/SpreadsheetWriterExample-Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		E2CED41A161430ED00E593F7 /* SpreadsheetWriterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpreadsheetWriterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2CED41E161430ED00E593F7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		E2CED421161430ED00E593F7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -63,31 +62,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BC81CE1C74CF5E00B55166 /* ZipArchive.framework in Frameworks */,
-				22BC81BF1C74CC9200B55166 /* ZipArchive.framework in Frameworks */,
 				E2CED41F161430ED00E593F7 /* Cocoa.framework in Frameworks */,
+				22D2B8791C74E2BA0059554D /* ZipArchive.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		22BC81BA1C74CC9200B55166 /* TGExcelWriter */ = {
+		22D2B85A1C74E2390059554D /* TGSpreadsheetWriter */ = {
 			isa = PBXGroup;
 			children = (
-				22BC81BB1C74CC9200B55166 /* TGSpreadsheetWriter.h */,
-				22BC81BC1C74CC9200B55166 /* TGSpreadsheetWriter.m */,
+				22D2B85B1C74E2390059554D /* TGSpreadsheetWriter.h */,
+				22D2B85C1C74E2390059554D /* TGSpreadsheetWriter.m */,
+				22D2B85D1C74E2390059554D /* ZipArchive.framework */,
 			);
-			path = TGExcelWriter;
+			path = TGSpreadsheetWriter;
 			sourceTree = "<group>";
 		};
 		E2A7F27C161527A0006D8A4A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				22BC81C01C74CD8C00B55166 /* spreadsheet.icns */,
-				22BC81C11C74CD8C00B55166 /* spreadsheet.png */,
-				22BC81C21C74CD8C00B55166 /* Template.ods */,
-				22BC81C31C74CD8C00B55166 /* Template.xlsx */,
+				22D2B8631C74E24A0059554D /* spreadsheet.icns */,
+				22D2B8641C74E24A0059554D /* spreadsheet.png */,
+				22D2B8651C74E24A0059554D /* Template.ods */,
+				22D2B8661C74E24A0059554D /* Template.xlsx */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -95,8 +94,8 @@
 		E2CED40F161430ED00E593F7 = {
 			isa = PBXGroup;
 			children = (
-				E2CED424161430ED00E593F7 /* TGExcelWriterExample */,
-				22BC81BA1C74CC9200B55166 /* TGExcelWriter */,
+				E2CED424161430ED00E593F7 /* TGSpreadsheetWriterExample */,
+				22D2B85A1C74E2390059554D /* TGSpreadsheetWriter */,
 				E2CED41D161430ED00E593F7 /* Frameworks */,
 				E2CED41B161430ED00E593F7 /* Products */,
 			);
@@ -113,7 +112,6 @@
 		E2CED41D161430ED00E593F7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22BC81BD1C74CC9200B55166 /* ZipArchive.framework */,
 				E2CED41E161430ED00E593F7 /* Cocoa.framework */,
 				E2CED420161430ED00E593F7 /* Other Frameworks */,
 			);
@@ -130,26 +128,26 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		E2CED424161430ED00E593F7 /* TGExcelWriterExample */ = {
+		E2CED424161430ED00E593F7 /* TGSpreadsheetWriterExample */ = {
 			isa = PBXGroup;
 			children = (
-				22BC81B21C74CC4100B55166 /* EWAppDelegate.h */,
-				22BC81B31C74CC4100B55166 /* EWAppDelegate.m */,
+				22D2B8601C74E2400059554D /* EWAppDelegate.h */,
+				22D2B8611C74E2400059554D /* EWAppDelegate.m */,
 				E2A7F27C161527A0006D8A4A /* Resources */,
 				E2CED425161430ED00E593F7 /* Supporting Files */,
 			);
-			name = TGExcelWriterExample;
+			name = TGSpreadsheetWriterExample;
 			path = ExcelWriter;
 			sourceTree = "<group>";
 		};
 		E2CED425161430ED00E593F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				22BC81C81C74CDA200B55166 /* MainMenu.xib */,
-				22BC81B51C74CC5E00B55166 /* main.m */,
-				22BC81B61C74CC5E00B55166 /* SpreadsheetWriterExample-Info.plist */,
-				22BC81B71C74CC5E00B55166 /* SpreadsheetWriterExample-Prefix.pch */,
-				22BC81CB1C74CDBE00B55166 /* Credits.rtf */,
+				22D2B8741C74E26A0059554D /* main.m */,
+				22D2B8751C74E26A0059554D /* SpreadsheetWriterExample-Info.plist */,
+				22D2B8761C74E26A0059554D /* SpreadsheetWriterExample-Prefix.pch */,
+				22D2B86B1C74E25D0059554D /* Credits.rtf */,
+				22D2B86F1C74E25D0059554D /* MainMenu.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,7 +183,7 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Tom Grill";
 			};
-			buildConfigurationList = E2CED414161430ED00E593F7 /* Build configuration list for PBXProject "SpreadsheetWriterExample" */;
+			buildConfigurationList = E2CED414161430ED00E593F7 /* Build configuration list for PBXProject "TGSpreadsheetWriterExample" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -207,12 +205,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BC81C41C74CD8C00B55166 /* spreadsheet.icns in Resources */,
-				22BC81C71C74CD8C00B55166 /* Template.xlsx in Resources */,
-				22BC81C61C74CD8C00B55166 /* Template.ods in Resources */,
-				22BC81C51C74CD8C00B55166 /* spreadsheet.png in Resources */,
-				22BC81CD1C74CDBE00B55166 /* Credits.rtf in Resources */,
-				22BC81CA1C74CDA200B55166 /* MainMenu.xib in Resources */,
+				22D2B8711C74E25D0059554D /* Credits.rtf in Resources */,
+				22D2B8671C74E24A0059554D /* spreadsheet.icns in Resources */,
+				22D2B8681C74E24A0059554D /* spreadsheet.png in Resources */,
+				22D2B8691C74E24A0059554D /* Template.ods in Resources */,
+				22D2B8731C74E25D0059554D /* MainMenu.xib in Resources */,
+				22D2B86A1C74E24A0059554D /* Template.xlsx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,29 +221,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22BC81B41C74CC4100B55166 /* EWAppDelegate.m in Sources */,
-				22BC81BE1C74CC9200B55166 /* TGSpreadsheetWriter.m in Sources */,
-				22BC81B81C74CC5E00B55166 /* main.m in Sources */,
+				22D2B85E1C74E2390059554D /* TGSpreadsheetWriter.m in Sources */,
+				22D2B8771C74E26A0059554D /* main.m in Sources */,
+				22D2B8621C74E2400059554D /* EWAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		22BC81C81C74CDA200B55166 /* MainMenu.xib */ = {
+		22D2B86B1C74E25D0059554D /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				22BC81C91C74CDA200B55166 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		22BC81CB1C74CDBE00B55166 /* Credits.rtf */ = {
-			isa = PBXVariantGroup;
-			children = (
-				22BC81CC1C74CDBE00B55166 /* en */,
+				22D2B86C1C74E25D0059554D /* en */,
 			);
 			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		22D2B86F1C74E25D0059554D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22D2B8701C74E25D0059554D /* en */,
+			);
+			name = MainMenu.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -306,11 +304,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/TGExcelWriter",
+					"$(PROJECT_DIR)/TGSpreadsheetWriter",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TGExcelWriterExample/SpreadsheetWriterExample-Prefix.pch";
-				INFOPLIST_FILE = "TGExcelWriterExample/SpreadsheetWriterExample-Info.plist";
+				GCC_PREFIX_HEADER = "TGSpreadsheetWriterExample/SpreadsheetWriterExample-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TGSpreadsheetWriterExample/SpreadsheetWriterExample-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.tomg.SpreadsheetWriter${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SpreadsheetWriterExample;
@@ -325,11 +323,11 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/TGExcelWriter",
+					"$(PROJECT_DIR)/TGSpreadsheetWriter",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TGExcelWriterExample/SpreadsheetWriterExample-Prefix.pch";
-				INFOPLIST_FILE = "TGExcelWriterExample/SpreadsheetWriterExample-Info.plist";
+				GCC_PREFIX_HEADER = "TGSpreadsheetWriterExample/SpreadsheetWriterExample-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/TGSpreadsheetWriterExample/SpreadsheetWriterExample-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "info.tomg.SpreadsheetWriter${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = SpreadsheetWriterExample;
@@ -340,7 +338,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E2CED414161430ED00E593F7 /* Build configuration list for PBXProject "SpreadsheetWriterExample" */ = {
+		E2CED414161430ED00E593F7 /* Build configuration list for PBXProject "TGSpreadsheetWriterExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E2CED436161430ED00E593F7 /* Debug */,
