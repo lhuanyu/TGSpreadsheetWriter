@@ -1,11 +1,16 @@
-SpreadsheetWriter
-=================
+# TGSpreadsheetWriter
 
-This project provides some classes that allow to read/write spreadsheet files (Excel, OpenOffice) on Mac OS X.
+`TGSpreadsheetWriter` is a fork of Tom Grill's [SpreadsheetWriter](https://github.com/thgrill/SpreadsheetWriter) repo. The original repo was last updated in 2012, and at the time of writing, is seemingly abandoned. As the functionality this library provides is quite valuable, the goal of this fork is to refine the project and make it more easily accessible, including publishing it via CocoaPods.
 
-The classes are developed in Objective C on the Mac and should be easily portable.
+---
+
+This project provides some classes that allow to read/write spreadsheet files (Excel, OpenOffice) on OS X.
+
+The classes are developed in Objective-C on the Mac and should be easily portable.
 
 The classes have only basic support for the particular formats which allows to import/export a two-dimensional data array to Excel 2004 (xml), Excel Workbook (xlsx), OpenOffice/LibreOffice (ods) formats.
+
+---
 
 The source code is provided under the MIT License:
 
