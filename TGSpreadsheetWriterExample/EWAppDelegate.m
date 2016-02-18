@@ -67,7 +67,8 @@ Copyright (c) 2012 Thomas Grill
     if ([panel runModal] == NSOKButton) {
         if ([[panel.URL pathExtension] isEqualToString:@"xlsx"]){
             
-            content = [TGSpreadsheetWriter readWorkbook:panel.URL];
+            NSDictionary *contents = [TGSpreadsheetWriter readWorkbook:panel.URL];
+            content = contents[contents.allKeys.firstObject];
             
         } else if ([[panel.URL pathExtension] isEqualToString:@"xml"]){
             
@@ -101,7 +102,7 @@ Copyright (c) 2012 Thomas Grill
             
         } else {
             
-            [TGSpreadsheetWriter WriteODS:panel.URL
+            [TGSpreadsheetWriter writeODS:panel.URL
                                     withData:content
                                  hasTitleRow:[self hasTitleRow]];
         }
