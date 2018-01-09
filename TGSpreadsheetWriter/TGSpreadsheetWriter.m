@@ -302,6 +302,8 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
             NSMutableArray * newRow = [NSMutableArray new];
             
             //iterate cells
+            unichar lastIndexCharacter = '@'; // ascii code before A
+            
             for (NSXMLElement * cell in [row children]){
                 
                 NSString * value = NULL;
@@ -312,6 +314,16 @@ static TGSpreadsheetWriter * spreadsheet = NULL;
                 } else {
                     value = [cell stringValue];
                 }
+                // fill empty cell with empty string.
+                NSString *indexText = [[cell attributeForName:@"r"] stringValue];
+                unichar c = [indexText characterAtIndex:0] - 1;
+                
+                while (c != lastIndexCharacter) {
+                    [newRow addObject:@""];
+                    c -= 1;
+                }
+                lastIndexCharacter = [indexText characterAtIndex:0];
+                
                 [newRow addObject:value];
                 
             }
